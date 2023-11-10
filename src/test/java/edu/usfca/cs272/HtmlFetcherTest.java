@@ -59,6 +59,7 @@ public class HtmlFetcherTest {
 	 * @see HtmlFetcher#isHtml(Map)
 	 */
 	@Nested
+	@Tag("A")
 	@TestMethodOrder(OrderAnnotation.class)
 	public class A_HtmlTypeTests {
 		/**
@@ -124,6 +125,7 @@ public class HtmlFetcherTest {
 	 * @see HtmlFetcher#getStatusCode(Map)
 	 */
 	@Nested
+	@Tag("B")
 	@TestMethodOrder(OrderAnnotation.class)
 	public class B_StatusCodeTests {
 		/**
@@ -172,6 +174,7 @@ public class HtmlFetcherTest {
 	 * @see HtmlFetcher#getRedirect(Map)
 	 */
 	@Nested
+	@Tag("C")
 	@TestMethodOrder(OrderAnnotation.class)
 	public class C_RedirectCodeTests {
 		/**
@@ -232,6 +235,7 @@ public class HtmlFetcherTest {
 	 * @see HtmlFetcher#fetch(URL)
 	 */
 	@Nested
+	@Tag("D")
 	@TestMethodOrder(OrderAnnotation.class)
 	public class D_FetchHtmlTests {
 		/**
@@ -308,6 +312,7 @@ public class HtmlFetcherTest {
 	 * @see HtmlFetcher#fetch(URL, int)
 	 */
 	@Nested
+	@Tag("E")
 	@TestMethodOrder(OrderAnnotation.class)
 	public class E_FetchRedirectTests {
 		/**
@@ -361,6 +366,7 @@ public class HtmlFetcherTest {
 	 * code. Attempts to fool this test will be considered cheating.
 	 */
 	@Tag("approach")
+	@Tag("F")
 	@Nested
 	public class F_ApproachTests {
 		/**
